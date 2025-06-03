@@ -2,7 +2,7 @@ public class Decisiones {
 
     public static void main(String[] args) {
         int fechaDeLanzamiento = 1999;
-        boolean incluidoEnELPlan = true;
+        boolean incluidoEnElPlan = true;
         double notaDeLaPelicula = 8.2;
         String tipoPlan = "plus";
 
@@ -13,7 +13,7 @@ public class Decisiones {
             System.out.println("Películas Retro que aún vale la pena ver");
         }
 
-        if (incluidoEnELPlan && tipoPlan.equals("plus")){
+        if (incluidoEnElPlan && tipoPlan.equals("plus")){
             System.out.println("Disfrute de su película");
         }
         else {
